@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -7,13 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,11 +17,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 .primary-font-color {
   color: #005B8B
@@ -46,3 +41,67 @@
   border-color: #005B8B !important;
 }
 
+.background {
+  background-image: url("./assets/image_4.png");
+}
+
+.wrapper {
+  height: 100px;
+  width: 100px;
+  /* position: relative; */
+}
+
+.text {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255,255,255) 0%,
+    rgba(255,255,255) 70%,
+    rgba(0, 128, 172, 0) 70.3%
+  );
+  height: 100%;
+  width: 100%;
+  color: #005B8B;
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+
+.text p {
+  text-align: center;
+  height: 100%;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+}
+
+.card_header_1 {
+  color:#31373A;
+  background-color: #D8D8D8;
+  border-radius: 25px;
+}
+
+.card_body_1 {
+  color:#AEAEAE;
+  background-color: #F2F2F2;
+}
+
+.card_body_2 {
+  color:#5E98BB;
+  background-color: #EAF5FC;
+}
+
+
+.card_header_2 {
+  color:#30739E;
+  background-color: #A5CFEA;
+  border-radius: 25px;
+}
+
+.background_2 {
+  background-image: url("./assets/image_7.jpg");
+}
+
+.team_background {
+  background-color: #005B8B;
+  color: white;
+}
