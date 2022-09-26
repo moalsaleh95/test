@@ -9,33 +9,39 @@ import image_11 from '../assets/image_11.png';
 
 function Team() {
   return (
-    <Container  className='team_background my-5 py-5'>
-        <Row><h2 className='mb-5'>Meet Our Great Team</h2></Row>
-        <Row>
-            <Col>
-                <img alt='' src={image_8} width='300' className='mb-4' />
-                <h6>PROF. DR. MEHMET MURAD BAŞAR</h6>
-                <p>Urology & Andrology & Senior Infertility Specialist</p>
+    <Container className='team_background my-5 py-5'>
+
+        <Container className='my-5 d-flex justify-content-start'>
+        <Row className='mx-2'><h2 className='mb-5'>Meet Our Great Team</h2></Row>
+        </Container>
+
+        <Container className='my-5 d-flex justify-content-between'>
+        <Row >
+            <Col className='mx-3'>
+                <img alt='' src={image_8} width='270' className='mb-4 border-rad-25' />
+                <h6 style={{"font-size":"15px"}}>PROF. DR. MEHMET MURAD BAŞAR</h6>
+                <p style={{"font-size":"12px"}}>Urology & Andrology & Senior Infertility Specialist</p>
+            </Col >
+
+            <Col className='mx-3'>
+                <img alt='' src={image_9} width='270' className='mb-4 border-rad-25' />
+                <h6 style={{"font-size":"15px"}}>AHMET ÇOBAN</h6>
+                <p style={{"font-size":"12px"}}>International Patient Coordinator</p>
             </Col>
 
-            <Col>
-                <img alt='' src={image_9} width='300' className='mb-4' />
-                <h6>AHMET ÇOBAN</h6>
-                <p>International Patient Coordinator</p>
+            <Col className='mx-3'>
+                <img alt='' src={image_10} width='270' className='mb-4 border-rad-25' />
+                <h6 style={{"font-size":"15px"}}>EMİNE COŞKUN</h6>
+                <p style={{"font-size":"12px"}}>Patient Relations Manager</p>
             </Col>
 
-            <Col>
-                <img alt='' src={image_10} width='300' className='mb-4' />
-                <h6>EMİNE COŞKUN</h6>
-                <p>Patient Relations Manager</p>
-            </Col>
-
-            <Col>
-                <img alt='' src={image_11} width='300' className='mb-4' />
-                <h6>Jenna Doe</h6>
-                <p>Nurse</p>
+            <Col className='mx-3'>
+                <img alt='' src={image_11} width='270' className='mb-4 border-rad-25' />
+                <h6 style={{"font-size":"15px"}}>GIZEM COŞKUN</h6>
+                <p style={{"font-size":"12px"}}>Nurse</p>
             </Col>
         </Row>
+        </Container>
     </Container>
   )
 }

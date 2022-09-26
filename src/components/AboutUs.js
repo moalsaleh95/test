@@ -10,18 +10,18 @@ function AboutUs() {
     <Container>
         <Row className='my-5 py-5'>
             <Col>
-                <img alt='aboutUs' src={aboutUs} width='500' />
+                <img alt='aboutUs' src={aboutUs} width='600' style={{"border-radius":"25px"}} />
             </Col>
-            <Col>
+            <Col style={{"text-align":"right" , "padding-top":"3rem"}}>
                 <h3 className='primary-font-color'>About Us</h3>
-                <p>We are a private Andrology & Fertility Center in Istanbul
+                <p className='text-secondary'>We are a private Andrology & Fertility Center in Istanbul
                     providing comprehensive care in every aspect
                     of fertility-related problems such as azoospermia and
                     varicocele as well as male sexual health conditions
                     including erectile dysfunction
                     (ED) ejaculation disorders, and more.
                     <br></br>
-                    <Button className='primary-bg-color'>Contact Us</Button>
+                    <Button className='primary-bg-color' style={{"border-radius":"25px", "padding":"11px 65px", "margin-top":"3rem"}}>Contact Us</Button>
                 </p>
             </Col>
         </Row>

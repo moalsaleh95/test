@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
   
@@ -11,9 +11,10 @@ export default class PhoneInputGfg extends React.Component {
     return (
       <div>
         <PhoneInput
-          country={'us'}
+          country={'tr'}
           value={this.state.phone}
           onChange={phone => this.setState({ phone })}
+          className=''
         />
       </div>
     );

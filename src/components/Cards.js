@@ -1,44 +1,45 @@
-import Card from 'react-bootstrap/Card';
-import image_2 from '../assets/image_2.png';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import im_1 from '../assets/1.png';
+import im_2 from '../assets/2.png';
+import im_3 from '../assets/3.png';
+import im_4 from '../assets/4.png';
+import im_5 from '../assets/5.png';
 
 function BasicExample() {
   return (
-    <div className='my-5 d-flex justify-content-center mx-auto'>
-        <Card className='mx-5' style={{ "display":"inline-block"}}>
-        <Card.Img className='p-3' src={image_2} />
+    <Container className=''>
+      <Row className=' d-flex justify-content-center' >
+        <Col className='p-3 mx-3  border secondary-font-color ' style={{"border-radius":"20px" , "background-color":"white"}} >
+          <img alt='' src={im_1} width='50' />
+          <p className='pt-2'>Micro Tese</p>
+        </Col>
+
+        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_2} width='50' />
+          <p className='pt-2'>IMSI-Sperm Selection</p>
+        </Col>
+
+        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_3} width='50' />
+          <p className='pt-2'>Sperm DNA Damage</p>
+        </Col>
+
+        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_4} width='50' />
+          <p className='pt-2'>Genetic Evaluation</p>
+        </Col>
+
+        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_5} width='50' />
+          <p className='pt-2'>Sperm Freezing</p>
+        </Col>
+
         
-            <Card.Text className='secondary-font-color'>Micro Tese</Card.Text>
+      </Row>
         
-        </Card>
-
-        <Card className='mx-5' style={{ "display":"inline-block" }}>
-      <Card.Img className='p-3' src={image_2} />
-      
-        <Card.Text className='secondary-font-color'>IMSI-Sperm Selection</Card.Text>
-      
-    </Card>
-
-    <Card className='mx-5' style={{ "display":"inline-block" }}>
-      <Card.Img className='p-3' src={image_2} />
-      
-        <Card.Text className='secondary-font-color'>Sperm DNA Damage</Card.Text>
-      
-    </Card>
-
-    <Card className='mx-5' style={{ "display":"inline-block" }}>
-      <Card.Img className='p-3' src={image_2} />
-      
-        <Card.Text className='secondary-font-color'>Genetic Evaluation</Card.Text>
-      
-    </Card>
-
-    <Card className='mx-5' style={{ "display":"inline-block" }}>
-      <Card.Img className='p-3' src={image_2} />
-      
-        <Card.Text className='secondary-font-color'>Sperm Freezing</Card.Text>
-      
-    </Card>
-    </div>
+    </Container>
   );
 }
 

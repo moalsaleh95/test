@@ -1,12 +1,7 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 /* .App-header {
   background-color: #282c34;
@@ -51,33 +46,12 @@
   /* position: relative; */
 }
 
-.text {
-  background: radial-gradient(
-    ellipse at center,
-    rgba(255,255,255) 0%,
-    rgba(255,255,255) 70%,
-    rgba(0, 128, 172, 0) 70.3%
-  );
-  height: 100%;
-  width: 100%;
-  color: #005B8B;
-  position: relative;
-  margin: 0;
-  text-align: center;
-}
-
-.text p {
-  text-align: center;
-  height: 100%;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-}
 
 .card_header_1 {
   color:#31373A;
   background-color: #D8D8D8;
   border-radius: 25px;
+  font-size: 1rem;
 }
 
 .card_body_1 {
@@ -95,6 +69,8 @@
   color:#30739E;
   background-color: #A5CFEA;
   border-radius: 25px;
+  font-size: 1rem;
+  max-height: 4rem;
 }
 
 .background_2 {
@@ -104,4 +80,89 @@
 .team_background {
   background-color: #005B8B;
   color: white;
+  display: inline-block;
+  text-align: left;
+  min-width: 100vw;
 }
+
+.footer_background {
+  background-color: #EAF5FC;
+  color: black;
+  display: inline-block;
+  text-align: left;
+  min-width: 100vw;
+  padding-top: 5rem;
+}
+
+.circle {
+  width: 5.8rem;
+  height: 5.8rem;
+  line-height: 5.8rem;
+  border-radius: 50%;
+  color: #005B8B;
+  text-align: center;
+  background: #fff;
+  font-size: 55px;
+  z-index: auto;
+  
+}
+
+.text {
+  text-align: left;
+  color: #005B8B;
+  margin: 0;
+  text-align: left;
+  white-space: nowrap;
+  margin-top: -2em;
+  z-index: 5;
+}
+
+.text p {
+  text-align: left;
+  height: 100%;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+}
+
+.border-rad-25 {
+  border-radius: 25px !important;
+}
+
+.hero_bg {
+  background: #F4FBFF;
+  /* background: #31373A; */
+
+  width: 380px;   
+  height: 480px; 
+  border-bottom-left-radius: 70% 50%;
+  border-bottom-right-radius: 70% 50%;
+  border-top-left-radius: 70% 50%;
+  border-top-right-radius: 70% 50%;
+
+  position: relative;
+  top: 0rem;
+  right: 2em;
+  z-index:-1;
+  clear: both; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  height: 100%;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
