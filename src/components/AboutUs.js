@@ -7,10 +7,10 @@ import Button from 'react-bootstrap/Button';
 
 function AboutUs() {
   return (
-    <Container>
+    <Container className='py-5'>
         <Row className='my-5 py-5'>
             <Col>
-                <img alt='aboutUs' src={aboutUs} width='600' style={{"border-radius":"25px"}} />
+                <img alt='aboutUs' src={aboutUs} width='600vw' style={{"border-radius":"25px"}} />
             </Col>
             <Col style={{"text-align":"right" , "padding-top":"3rem"}}>
                 <h3 className='primary-font-color'>About Us</h3>

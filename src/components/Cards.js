@@ -9,37 +9,62 @@ import im_5 from '../assets/5.png';
 
 function BasicExample() {
   return (
-    <Container className=''>
-      <Row className=' d-flex justify-content-center flex-wrap' >
-        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px" , "background-color":"white"}} >
-          <img alt='' src={im_1} width='50' />
+    // <Container className=''>
+    //   <Row className='' >
+    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}} >
+    //       <img alt='' src={im_1} width='50%' />
+    //       <p className='pt-2'>Micro Tese</p>
+    //     </Col>
+
+    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+    //       <img alt='' src={im_2} width='50%' />
+    //       <p className='pt-2'>IMSI-Sperm Selection</p>
+    //     </Col>
+
+    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+    //       <img alt='' src={im_3} width='50%' />
+    //       <p className='pt-2'>Sperm DNA Damage</p>
+    //     </Col>
+
+    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+    //       <img alt='' src={im_4} width='50%' />
+    //       <p className='pt-2'>Genetic Evaluation</p>
+    //     </Col>
+
+    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+    //       <img alt='' src={im_5} width='50%' />
+    //       <p className='pt-2'>Sperm Freezing</p>
+    //     </Col> 
+    //   </Row>
+
+      <div className='d-flex flex-wrap'>
+        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
+          <img alt='' src={im_1} width='30%' className='flex-grow-1'/>
           <p className='pt-2'>Micro Tese</p>
-        </Col>
+        </div>
 
-        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
-          <img alt='' src={im_2} width='50' />
+        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
+          <img alt='' src={im_2} width='30%'  className='flex-grow-1'/>
           <p className='pt-2'>IMSI-Sperm Selection</p>
-        </Col>
-
-        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
-          <img alt='' src={im_3} width='50' />
+        </div>
+        
+        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
+          <img alt='' src={im_3} width='30%'  className='flex-grow-1'/>
           <p className='pt-2'>Sperm DNA Damage</p>
-        </Col>
+        </div>
 
-        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
-          <img alt='' src={im_4} width='50' />
+        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
+          <img alt='' src={im_4} width='30%'  className='flex-grow-1'/>
           <p className='pt-2'>Genetic Evaluation</p>
-        </Col>
+        </div>
 
-        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px", "background-color":"white"}} >
-          <img alt='' src={im_5} width='50' />
+        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
+          <img alt='' src={im_5} width='30%'  className='flex-grow-1'/>
           <p className='pt-2'>Sperm Freezing</p>
-        </Col>
-
+        </div>
+      </div>
         
-      </Row>
-        
-    </Container>
+    // </Container>
   );
 }
 

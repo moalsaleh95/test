@@ -10,7 +10,7 @@ function SemenCover() {
         <Row className=''>
             <Col className='' style={{"padding":"0 5rem", "margin-top":"1rem"}}>
                 <h1 className='ps-2 circle' >25+</h1>
-                <p className='ps-2 text'>Years of On-going Experience</p>
+                <p className='ps-2 text '>Years of On-going Experience</p>
             </Col>
             <Col style={{"padding":"0 5rem", "margin-top":"1rem"}}>
                 <h1 className='ps-2 mt-n5 circle'>70+</h1>
