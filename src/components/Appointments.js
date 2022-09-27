@@ -17,10 +17,10 @@ function Appointments() {
 
         </Row>
 
-        <Row className='d-flex justify-content-between' style={{"position":"absolute"}}>
-           <Cards />
+        <Row className='d-flex justify-content-between' style={{"position":"absolute", "clear":"both"}}>
+           
         </Row>
-        
+        <Cards />
     </Container>
   )
 }

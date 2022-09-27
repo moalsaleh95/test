@@ -130,21 +130,28 @@
 }
 
 .hero_bg {
-  background: #F4FBFF;
-  /* background: #31373A; */
 
-  width: 380px;   
-  height: 480px; 
-  border-bottom-left-radius: 70% 50%;
-  border-bottom-right-radius: 70% 50%;
-  border-top-left-radius: 70% 50%;
-  border-top-right-radius: 70% 50%;
 
   position: relative;
   top: 0rem;
   right: 2em;
   z-index:-1;
   clear: both; 
+}
+
+@media screen and (min-width: 1400px)  {
+  .hero_bg_big {
+    width: 380px;   
+    height: 480px; 
+    background: #F4FBFF;
+    /* background: #31373A; */
+
+    
+    border-bottom-left-radius: 70% 50%;
+    border-bottom-right-radius: 70% 50%;
+    border-top-left-radius: 70% 50%;
+    border-top-right-radius: 70% 50%;
+  }
 }
 
 .grid-container {
@@ -162,7 +169,8 @@
   font-size: 30px;
 }
 
-/* .item1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-} */
+
+.flex_container > * {
+  flex: 1;
+  flex-basis: 100%;
+}

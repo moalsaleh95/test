@@ -18,25 +18,25 @@ function Team() {
         <Container className='my-5 d-flex justify-content-between'>
         <Row >
             <Col className='mx-3'>
-                <img alt='' src={image_8} width='270' className='mb-4 border-rad-25' />
+                <img alt='' src={image_8} max-width='270' width='240' className='mb-4 border-rad-25 ' />
                 <h6 style={{"font-size":"15px"}}>PROF. DR. MEHMET MURAD BAŞAR</h6>
                 <p style={{"font-size":"12px"}}>Urology & Andrology & Senior Infertility Specialist</p>
             </Col >
 
             <Col className='mx-3'>
-                <img alt='' src={image_9} width='270' className='mb-4 border-rad-25' />
+                <img alt='' src={image_9} max-width='270' width='240' className='mb-4 border-rad-25' />
                 <h6 style={{"font-size":"15px"}}>AHMET ÇOBAN</h6>
                 <p style={{"font-size":"12px"}}>International Patient Coordinator</p>
             </Col>
 
             <Col className='mx-3'>
-                <img alt='' src={image_10} width='270' className='mb-4 border-rad-25' />
+                <img alt='' src={image_10} max-width='270' width='240' className='mb-4 border-rad-25' />
                 <h6 style={{"font-size":"15px"}}>EMİNE COŞKUN</h6>
                 <p style={{"font-size":"12px"}}>Patient Relations Manager</p>
             </Col>
 
             <Col className='mx-3'>
-                <img alt='' src={image_11} width='270' className='mb-4 border-rad-25' />
+                <img alt='' src={image_11} max-width='270' width='240' className='mb-4 border-rad-25' />
                 <h6 style={{"font-size":"15px"}}>GIZEM COŞKUN</h6>
                 <p style={{"font-size":"12px"}}>Nurse</p>
             </Col>

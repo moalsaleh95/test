@@ -14,7 +14,7 @@ import logo_8 from '../assets/logo_8.png';
 function Sponsors() {
   return (
     <Container>
-    <Row className='mt-5 ' style={{"display":"flex"}}>
+    <Row className='mt-5 ' style={{"display":"flex", "align-items":"baseline"}}>
         <Col style={{"display":"block"}}>
             <img alt='' src={logo_1} width='70' />
             <p style={{"font-size":"13px", "color": "#70BBEA", "padding-top":"1em"}} >American Urological Association</p>

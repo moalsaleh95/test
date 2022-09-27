@@ -13,7 +13,7 @@ function Prices() {
         <Row style={{"margin":"0 70px"}}>
             <Col lg={6} style={{"position":"relative", "border-radius": "25px", "background-color":"#EAF5FC"}}>
                 
-                <img style={{"position":"absolute", "left":"220px", "bottom":"475px"}} alt='' src={image_12} width='140' />
+                <img style={{"position":"absolute", "left":"38%", "top":"-8%"}} alt='' src={image_12} width='140' />
                 <br></br>
                 
                 <img alt='' src={turkey} width='50' style={{"margin-bottom":"0.5rem"}} />

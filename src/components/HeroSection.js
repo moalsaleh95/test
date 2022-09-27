@@ -9,11 +9,11 @@ import Container from 'react-bootstrap/Container';
 
 function HeroSection() {
   return (
-    <Container className='border border-danger' style={{ "position":"relative"}}>
+    <Container className=' border-danger' style={{ "position":"relative"}}>
 
       <Row >    
 
-    <Col className='border border-primary' xs={7} style={{"margin":"5rem 3rem", "text-align":"left"}}>
+    <Col className=' border-primary' xs={7} style={{"margin":"5rem 3rem", "text-align":"left"}}>
           <h2 className='primary-font-color'>Being A</h2>
           <h2 className='primary-font-color'>Father Is</h2>
           <h2 className='primary-font-color'>Everyone’s Right</h2>
@@ -43,10 +43,10 @@ function HeroSection() {
       </Form>
       </Col>
       
-      <Col className='border border-danger' style={{"position":"relative"}} >
+      <Col className=' border-danger' style={{"position":"relative"}} >
 
-        <div className='hero_bg' >
-        <img alt='hero' src={hero} style={{"position":"absolute", "border-radius":"1445px", "display":"block" , "z-index":"5", "left":"3em"}} width="350" height="480" />
+        <div className='hero_bg hero_bg_big' >
+        <img alt='hero' src={hero} style={{"position":"absolute", "border-radius":"1445px", "display":"block" , "z-index":"5", "left":"3em"}} width="350" height="auto" />
         </div>
 
 

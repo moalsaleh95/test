@@ -10,18 +10,19 @@ function NavScrollExample() {
     <Navbar style={{"background":"white"}} className="border border-danger" expand="lg">
 
       <Container  className="d-flex justify-content-between">
-        <Row >
+
+        <Row className='flex-grow-1 flex-shrink-1 align-items-center '>
           <Col >
-            <Navbar.Brand href="#">
-              <img alt='logo' src={logo} width="300" />
+            <Navbar.Brand href="#"  >
+              <img alt='logo' src={logo} width="300" className='border' />
             </Navbar.Brand>
           </Col>
           
-          <Col>
-            <Nav.Link href="#action2" style={{"border-radius":"25px", "font-size": "18px", "margin":"1rem 1em", "padding":"6px 1.5em"}} className='d-lg-none text-white primary-bg-color'>WHATSAPP</Nav.Link>
+          <Col> 
+            <Nav.Link href="#action2" style={{"border-radius":"25px", "font-size": "18px", "margin":"1rem 0em", "padding":"6px 1.5em"}} className='d-lg-none  text-white primary-bg-color'>WHATSAPP</Nav.Link>
           </Col>
 
-          <Col> 
+          <Col > 
             <Navbar.Collapse id="navbarScroll">
             {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
           <Nav className="my-2 my-lg-0 " style={{ maxHeight: '100px' }} navbarScroll> 

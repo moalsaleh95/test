@@ -10,8 +10,8 @@ import im_5 from '../assets/5.png';
 function BasicExample() {
   return (
     <Container className=''>
-      <Row className=' d-flex justify-content-center' >
-        <Col className='p-3 mx-3  border secondary-font-color ' style={{"border-radius":"20px" , "background-color":"white"}} >
+      <Row className=' d-flex justify-content-center flex-wrap' >
+        <Col className='p-3 mx-3  border secondary-font-color' style={{"border-radius":"20px" , "background-color":"white"}} >
           <img alt='' src={im_1} width='50' />
           <p className='pt-2'>Micro Tese</p>
         </Col>

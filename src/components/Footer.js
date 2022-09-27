@@ -12,7 +12,7 @@ function Footer() {
       <Container className='' >
           <Row style={{"background":"#EAF5FC", "text-align":"left" }}>
               <Col className='px-5'>
-              <img alt='' src={logo} width='300' className='py-3' />
+              <img alt='' src={logo} width='300' className='pb-3 pt-1' />
               <p className='text-secondary'>Being A Father Is Everyone’s Right!</p>
               </Col>
 
