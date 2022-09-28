@@ -51,7 +51,7 @@
   color:#31373A;
   background-color: #D8D8D8;
   border-radius: 25px;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 
 .card_body_1 {
@@ -69,8 +69,24 @@
   color:#30739E;
   background-color: #A5CFEA;
   border-radius: 25px;
-  font-size: 1rem;
+  font-size: 0.6rem;
   max-height: 4rem;
+}
+
+.font-control {
+  font-size: 0.5rem;
+}
+
+@media screen and (min-width: 653px) {
+  .font-control {
+    font-size: 0.8rem;
+  }
+  .card_header_2 {
+    font-size: 0.8rem;
+  }
+  .card_header_1 {
+    font-size: 0.8rem;
+  }
 }
 
 .background_2 {
@@ -95,20 +111,21 @@
 }
 
 .circle {
-  width: 5.8rem;
-  height: 5.8rem;
-  line-height: 5.8rem;
+  font-size: 1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
   border-radius: 50%;
   color: #005B8B;
   text-align: center;
   background: #fff;
-  font-size: 55px;
   z-index: auto;
   
 }
 
 .text {
-  text-align: left;
+  font-size: 0.5rem;
+  text-align: center;
   color: #005B8B;
   margin: 0;
   text-align: left;
@@ -116,6 +133,30 @@
   margin-top: -2em;
   z-index: 5;
 }
+
+@media screen and (min-width: 653px) {
+  .circle {
+    width: 5.8rem;
+    height: 5.8rem; 
+    line-height: 5.8rem;
+    font-size: 55px;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+  .screen-width {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .screen-width {
+    max-width: 65%;
+  }
+
+}
+
 
 .text p {
   text-align: left;
@@ -164,4 +205,48 @@
 .flex_container > * {
   flex: 1;
   flex-basis: 100%;
+} */
+
+/* .prices_text {
+  font-size: 10px;
+} */
+
+.footer_text {
+  font-size: 10px;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+}
+
+@media screen and (min-width: 768px) {
+  .cards-translate {
+    transform:translateY(10vw);
+  }
+
+  .about-translate {
+    margin-top: 10vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .cards-translate {
+    transform:translateY(7vw);
+  }
+
+  .about-translate {
+    margin-top: 10vw;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .cards-translate {
+    transform:translateY(4vw);
+  }
+
+  .about-translate {
+    margin-top: 10vw;
+  }
+}
+
+/* .general-font-adjust {
+  font-size: 8px;
 } */

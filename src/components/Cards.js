@@ -9,62 +9,34 @@ import im_5 from '../assets/5.png';
 
 function BasicExample() {
   return (
-    // <Container className=''>
-    //   <Row className='' >
-    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}} >
-    //       <img alt='' src={im_1} width='50%' />
-    //       <p className='pt-2'>Micro Tese</p>
-    //     </Col>
-
-    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
-    //       <img alt='' src={im_2} width='50%' />
-    //       <p className='pt-2'>IMSI-Sperm Selection</p>
-    //     </Col>
-
-    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
-    //       <img alt='' src={im_3} width='50%' />
-    //       <p className='pt-2'>Sperm DNA Damage</p>
-    //     </Col>
-
-    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
-    //       <img alt='' src={im_4} width='50%' />
-    //       <p className='pt-2'>Genetic Evaluation</p>
-    //     </Col>
-
-    //     <Col sm className='p-3 mx-3  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
-    //       <img alt='' src={im_5} width='50%' />
-    //       <p className='pt-2'>Sperm Freezing</p>
-    //     </Col> 
-    //   </Row>
-
-      <div className='d-flex flex-wrap'>
-        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
-          <img alt='' src={im_1} width='30%' className='flex-grow-1'/>
+    <Container className=''>
+      <Row className='cards-translate d-flex justify-content-center' style={{}} >
+        <Col xs='5' sm className='p-3 mx-3 g-2 border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}} >
+          <img alt='' src={im_1} width='30%' className='img-fluid' />
           <p className='pt-2'>Micro Tese</p>
-        </div>
+        </Col>
 
-        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
-          <img alt='' src={im_2} width='30%'  className='flex-grow-1'/>
+        <Col xs='5' sm className='p-3 mx-3 g-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_2} width='30%' className='img-fluid' />
           <p className='pt-2'>IMSI-Sperm Selection</p>
-        </div>
-        
-        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
-          <img alt='' src={im_3} width='30%'  className='flex-grow-1'/>
+        </Col>
+
+        <Col xs='5' sm className='p-3 mx-3 g-2 border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_3} width='30%' className='img-fluid' />
           <p className='pt-2'>Sperm DNA Damage</p>
-        </div>
+        </Col>
 
-        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
-          <img alt='' src={im_4} width='30%'  className='flex-grow-1'/>
+        <Col xs='5' sm className='p-3 mx-3 g-2 border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_4} width='30%' className='img-fluid' />
           <p className='pt-2'>Genetic Evaluation</p>
-        </div>
+        </Col>
 
-        <div className='p-2 mx-2  border secondary-font-color shadow-sm' style={{"border-radius":"20px" , "background-color":"white"}}>
-          <img alt='' src={im_5} width='30%'  className='flex-grow-1'/>
+        <Col xs='5' sm className='p-3 mx-3 g-2 border secondary-font-color shadow-sm' style={{"border-radius":"20px", "background-color":"white"}} >
+          <img alt='' src={im_5} width='30%' className='img-fluid' />
           <p className='pt-2'>Sperm Freezing</p>
-        </div>
-      </div>
-        
-    // </Container>
+        </Col> 
+      </Row>
+    </Container>
   );
 }
 

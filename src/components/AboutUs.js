@@ -7,13 +7,17 @@ import Button from 'react-bootstrap/Button';
 
 function AboutUs() {
   return (
-    <Container className='py-5'>
-        <Row className='my-5 py-5'>
-            <Col>
-                <img alt='aboutUs' src={aboutUs} width='600vw' style={{"border-radius":"25px"}} />
+    <Container className='py-5 about-translate'>
+        <Row className=''>
+            <Col lg={6}>
+                <img alt='aboutUs' src={aboutUs} 
+                // width='600vw' 
+                // style={{"border-radius":"25px"}}
+                style={{"border-radius":"25px","width": "100%","max-width": "800px", "height": "auto"}}
+                />
             </Col>
-            <Col style={{"text-align":"right" , "padding-top":"3rem"}}>
-                <h3 className='primary-font-color'>About Us</h3>
+            <Col style={{"text-align":"right"}}>
+                <h3 className='primary-font-color pt-3'>About Us</h3>
                 <p className='text-secondary'>We are a private Andrology & Fertility Center in Istanbul
                     providing comprehensive care in every aspect
                     of fertility-related problems such as azoospermia and

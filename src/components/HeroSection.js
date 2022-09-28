@@ -15,10 +15,10 @@ function HeroSection() {
 
       
 
-      <div className='d-flex mx-auto justify-content-between'>
+      <div className='d-flex mx-auto justify-content-between align-content-center'>
 
         <div>
-          <div className='border d-flex flex-wrap flex-col align-items-center text-left mt-5'>
+          <div className='border d-flex flex-wrap flex-col align-items-center text-left '>
             <div >
               <h2 className='primary-font-color text-start mt-5'>Being A</h2>
               <h2 className='primary-font-color text-start'>Father Is</h2>
@@ -46,10 +46,11 @@ function HeroSection() {
         </div>
 
         <div>
-          <div className='hero_bg hero_bg_big float-end'>
+          <div className='float-end'>
             <img alt='hero' src={hero} 
             className=''
-            style={{"position":"absolute", "border-radius":"1445px", "z-index":"5", "left":"3em"}} 
+            style={{"width": "100%","max-width": "400px", "height": "auto"}}
+            // style={{"position":"absolute", "border-radius":"1445px", "z-index":"5", "left":"3em"}} 
             width="350vw" max-width='100%' height="auto" />
             </div>
         </div>
