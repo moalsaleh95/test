@@ -3,21 +3,6 @@
   margin: auto;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-} */
-
 .primary-font-color {
   color: #005B8B
 }
@@ -157,7 +142,6 @@
 
 }
 
-
 .text p {
   text-align: left;
   height: 100%;
@@ -177,39 +161,14 @@
   z-index:-1;
   clear: both; 
   width: 380px;   
-    height: 480px; 
-    background: #F4FBFF;
-    border-bottom-left-radius: 70% 50%;
-    border-bottom-right-radius: 70% 50%;
-    border-top-left-radius: 70% 50%;
-    border-top-right-radius: 70% 50%;
+  height: 480px; 
+  background: #F4FBFF;
+  border-bottom-left-radius: 70% 50%;
+  border-bottom-right-radius: 70% 50%;
+  border-top-left-radius: 70% 50%;
+  border-top-right-radius: 70% 50%;
 }
 
-
-/* .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
-  height: 100%;
-}
-
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
-
-.flex_container > * {
-  flex: 1;
-  flex-basis: 100%;
-} */
-
-/* .prices_text {
-  font-size: 10px;
-} */
 
 .footer_text {
   font-size: 10px;
@@ -225,6 +184,14 @@
   .about-translate {
     margin-top: 10vw;
   }
+
+  .navbar-image {
+    max-width: 290px !important;
+  }
+
+  .navbar-whatsapp-button {
+    font-size: 25px !important;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -235,6 +202,10 @@
   .about-translate {
     margin-top: 10vw;
   }
+  
+  .navbar-image {
+    max-width: 320px !important;
+  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -244,9 +215,5 @@
 
   .about-translate {
     margin-top: 10vw;
-  }
 }
-
-/* .general-font-adjust {
-  font-size: 8px;
-} */
+}
