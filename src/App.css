@@ -189,6 +189,10 @@
     max-width: 290px !important;
   }
 
+  .hero-image {
+    max-width: 290px !important;
+  }
+
   .navbar-whatsapp-button {
     font-size: 25px !important;
   }
@@ -205,6 +209,21 @@
   
   .navbar-image {
     max-width: 320px !important;
+  }
+
+  .hero-image {
+    max-width: 320px !important;
+    transform:translateX(0%) !important;
+  }
+
+  .buttons-wrapper {
+    padding-top: 2.5rem;
+    z-index: 10;
+  }
+
+  .hero-buttons {
+    width: 16vw !important;
+    z-index: 10;
   }
 }
 

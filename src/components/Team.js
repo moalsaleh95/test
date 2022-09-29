@@ -15,7 +15,7 @@ function Team() {
         <Row className='mx-2'><h2 className='mb-5'>Meet Our Great Team</h2></Row>
         </Container>
 
-        <Container className='my-5 d-flex justify-content-between'>
+        <Container className='my-5 '>
         <Row >
             <Col lg='3' xs='6' className=''>
                 <img alt='' src={image_8} max-width='270' width='240' className='mb-4 border-rad-25 img-fluid' />
