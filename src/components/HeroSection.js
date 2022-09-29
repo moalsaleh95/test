@@ -4,10 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 // import PhoneInputGfg from './PhoneNum';
 import Container from 'react-bootstrap/Container';
+import bg_colored_image from '../assets/442x593.png';
 
 function HeroSection() {
   return (
-    <Container className=' border-danger' 
+    <Container className='' 
     // style={{ "position":"relative"}}
     >
 
@@ -41,9 +42,11 @@ function HeroSection() {
         </div>
 
         <div>
-          <div className='float-end ' style={{"overflow":"hidden"}}>
+          
+          <div className='float-end hero-hide-show' style={{"position":"relative", "overflow":"hidden"}}>
+
             <img alt='hero' src={hero} 
-            className='img-fluid hero-image'
+            className='img-fluid hero-image '
               style={{
                 // "width": "100%",
                 "max-width": "210px", 
@@ -52,12 +55,31 @@ function HeroSection() {
                 // "position":"absolute",
                 "z-index":"5",
                 "transform":"translateX(7%)",
+                "position":"relative",
+                // "overflow":"hidden",
               }}
             // style={{"position":"absolute", "border-radius":"1445px", "z-index":"5", "left":"3em"}} width="350vw" max-width='100%' height="auto" 
             />
+
+              <img alt='hero' src={bg_colored_image} 
+                className='img-fluid hero-bg-image '
+                style={{
+                  "border-radius":"1445px",
+                  "display":"none",
+                  "position":"absolute",
+                  "top":"0px",
+                  "right":"0px",
+                  "transform":"translateX(-22%)",
+                  "z-index":"-1"
+                }}
+              />
+            </div>
+
+
+
             </div>
         </div>
-      </div>
+      {/* </div> */}
     </Container>
   )
 }

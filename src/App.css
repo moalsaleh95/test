@@ -212,7 +212,7 @@
   }
 
   .hero-image {
-    max-width: 320px !important;
+    max-width: 250px !important;
     transform:translateX(0%) !important;
   }
 
@@ -222,8 +222,22 @@
   }
 
   .hero-buttons {
-    width: 16vw !important;
+    width: 14.5vw !important;
     z-index: 10;
+  }
+
+  .hero-bg-image {
+    display: inline !important;
+  }
+
+  .hero-hide-show {
+    overflow: visible !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .hero-image {
+    max-width: 390px !important;
   }
 }
 
@@ -234,5 +248,9 @@
 
   .about-translate {
     margin-top: 10vw;
-}
+  }
+
+  .hero-image {
+    max-width: 390px !important;
+  }
 }
