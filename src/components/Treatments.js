@@ -43,8 +43,6 @@ function Treatments() {
 
             <Col lg='4' xs='12' className=''>
                 <img className='border-rad-25 img-fluid' alt='#' src={image_5} 
-                // style={{"width": "auto", "max-width": "450px"}}
-                // width= 'auto'
                  />
             </Col>
         </Row>
@@ -53,8 +51,6 @@ function Treatments() {
         <Row className='my-2 gy-3 '>
             <Col lg='4' xs='12' className=''>
                 <img className='border-rad-25 img-fluid' alt='#' src={image_6} 
-                // width= 'auto'
-                // style={{"width": "auto", "max-width": "450px"}}
                  />
             </Col>
 
@@ -88,10 +84,10 @@ function Treatments() {
         <Row style={{"background-color":"#4799C4"}} className='border-rad-25 my-5 py-5 text-white'>
             
             <Col>
-                <h2 style={{"text-align":"left", "margin-left":"5vw", "margin-b":"5vw"}} >Reach for your dreams in experienced hands.</h2>
+                <h2 style={{"text-align":"left", "margin-left":"6vw", "margin-b":"5vw"}} >Reach for your dreams in experienced hands.</h2>
             </Col>
             <Col>
-                <Button className='' style={{"background-color":"white", "color":"#4799C4", "border-color":"white" ,"border-radius":"50px", "padding":"1rem 6rem","margin-top":"1.5rem", "font-size":"1.5rem", "font-weight": "600","white-space": "nowrap"}}>Call Us</Button>
+                <Button className='align-items-center' style={{"background-color":"white", "color":"#4799C4", "border-color":"white" ,"border-radius":"50px","margin-left":"8rem","margin-bottom":"2rem", "padding":"1rem 6rem","margin-top":"1.5rem", "font-size":"1.5rem", "font-weight": "600","white-space": "nowrap"}}>Call Us</Button>
             </Col>
         </Row>
         </Container>
